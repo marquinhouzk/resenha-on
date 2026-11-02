@@ -6,23 +6,23 @@ A **Resenha ON** é um modo de câmera pensado para estudantes full-time: o alun
 
 ## Links
 
-- Deploy na Vercel: **COLE_AQUI_O_LINK_DA_VERCEL**
-- Repositório Git: **COLE_AQUI_O_LINK_DO_GITHUB**
+- Deploy na Vercel: **https://resenha-on.vercel.app/app**
+- Repositório Git: **https://github.com/marquinhouzk/resenha-on**
 
 ## Tecnologias utilizadas
 
-| Tecnologia | Uso |
-| --- | --- |
-| React 18 | Componentes funcionais, props, hooks nativos e hooks customizados |
-| React Router 6 | Rotas públicas e privadas, rotas aninhadas, parâmetros e query string |
-| Tailwind CSS 4 (`@tailwindcss/vite`) | Estilização e responsividade (mobile first) |
-| Vite 6 | Servidor de desenvolvimento e build |
-| CSS Grid | Layout das seções (grid container e grid items via utilitários `grid`, `grid-cols-*`, `col-span-*`) |
-| HTML semântico | `header`, `nav`, `main`, `section`, `article`, `figure`, `aside`, `footer`, `dl`, `ol` |
-| `fetch` + API mockada | Dados servidos em `public/api/*.json` |
-| `localStorage` | Sessão, dados do aluno e mensagens de contato |
-| Web Crypto (SHA-256) | Hash das senhas |
-| Git + Vercel | Versionamento e deploy |
+| Tecnologia                           | Uso                                                                                                 |
+| ------------------------------------ | --------------------------------------------------------------------------------------------------- |
+| React 18                             | Componentes funcionais, props, hooks nativos e hooks customizados                                   |
+| React Router 6                       | Rotas públicas e privadas, rotas aninhadas, parâmetros e query string                               |
+| Tailwind CSS 4 (`@tailwindcss/vite`) | Estilização e responsividade (mobile first)                                                         |
+| Vite 6                               | Servidor de desenvolvimento e build                                                                 |
+| CSS Grid                             | Layout das seções (grid container e grid items via utilitários `grid`, `grid-cols-*`, `col-span-*`) |
+| HTML semântico                       | `header`, `nav`, `main`, `section`, `article`, `figure`, `aside`, `footer`, `dl`, `ol`              |
+| `fetch` + API mockada                | Dados servidos em `public/api/*.json`                                                               |
+| `localStorage`                       | Sessão, dados do aluno e mensagens de contato                                                       |
+| Web Crypto (SHA-256)                 | Hash das senhas                                                                                     |
+| Git + Vercel                         | Versionamento e deploy                                                                              |
 
 ## Como instalar as dependências
 
@@ -54,10 +54,10 @@ npm test          # roda os testes da lógica (busca, estatísticas, reducer, va
 
 ## Usuários e senhas para teste
 
-| Perfil | E-mail | Senha |
-| --- | --- | --- |
-| Aluno com dados de exemplo | `demo@resenhaon.app` | `Resenha@2026` |
-| Professor (também com dados de exemplo) | `professor@fiap.com.br` | `Fiap@2026` |
+| Perfil                                  | E-mail                  | Senha          |
+| --------------------------------------- | ----------------------- | -------------- |
+| Aluno com dados de exemplo              | `demo@resenhaon.app`    | `Resenha@2026` |
+| Professor (também com dados de exemplo) | `professor@fiap.com.br` | `Fiap@2026`    |
 
 Também é possível **criar uma conta** em `/cadastro` (a conta fica salva no navegador e começa com pastas e sem notas). Na tela de login há o botão "Preencher com a conta de teste".
 
@@ -76,23 +76,23 @@ Também é possível **criar uma conta** em `/cadastro` (a conta fica salva no n
 
 ## Requisitos da disciplina × onde está no projeto
 
-| Requisito | Onde |
-| --- | --- |
-| Componentização e props | `src/components/**`, ex.: `NotaCard`, `Campo`, `Botao`, `Modal` |
-| Estrutura pai para filho | `App` → `AreaDoAluno` → `AppLayout` → páginas → componentes |
-| Rotas públicas | `/`, `/login`, `/cadastro` (`src/App.jsx`, `routes/RotaPublica.jsx`) |
-| Rotas privadas | `/app/*` (`routes/RotaPrivada.jsx`) |
-| Hooks nativos | `useState`, `useEffect`, `useMemo`, `useCallback`, `useReducer`, `useRef`, `useId`, `useContext` |
-| Hooks customizados | `src/hooks/`: `useAuth`, `useDados`, `useFormulario`, `useDebounce`, `useLocalStorage`, `useCaptura`, `useAmostras`, `useNotificacoes`, `useToast`, `useTitulo`, `useTeclaEsc` |
-| Lógica separada da parte visual | `src/lib/` (funções puras, testadas) e `src/context/` |
-| localStorage | `src/services/armazenamento.js` |
-| Operações com `Math` | `useCaptura` (`Math.random`, `Math.round`), `lib/estatisticas.js` (percentuais, médias, `Math.max`), `lib/id.js` |
-| Consumo de API | `src/services/api.js` (usuários, pastas, notas e amostras) |
-| Tailwind CSS | Todo o projeto; tokens em `src/index.css` |
-| Responsividade | Desktop, tablet e mobile em todas as telas (menu recolhido, navegação inferior no celular) |
-| CSS Grid | Seções da landing e da área do aluno |
-| HTML semântico e acessibilidade | Landmarks, `aria-*`, `<dialog>` nativo, foco visível, `prefers-reduced-motion` |
-| Deploy Git + Vercel | `vercel.json` (inclui rewrite para o React Router) |
+| Requisito                       | Onde                                                                                                                                                                           |
+| ------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| Componentização e props         | `src/components/**`, ex.: `NotaCard`, `Campo`, `Botao`, `Modal`                                                                                                                |
+| Estrutura pai para filho        | `App` → `AreaDoAluno` → `AppLayout` → páginas → componentes                                                                                                                    |
+| Rotas públicas                  | `/`, `/login`, `/cadastro` (`src/App.jsx`, `routes/RotaPublica.jsx`)                                                                                                           |
+| Rotas privadas                  | `/app/*` (`routes/RotaPrivada.jsx`)                                                                                                                                            |
+| Hooks nativos                   | `useState`, `useEffect`, `useMemo`, `useCallback`, `useReducer`, `useRef`, `useId`, `useContext`                                                                               |
+| Hooks customizados              | `src/hooks/`: `useAuth`, `useDados`, `useFormulario`, `useDebounce`, `useLocalStorage`, `useCaptura`, `useAmostras`, `useNotificacoes`, `useToast`, `useTitulo`, `useTeclaEsc` |
+| Lógica separada da parte visual | `src/lib/` (funções puras, testadas) e `src/context/`                                                                                                                          |
+| localStorage                    | `src/services/armazenamento.js`                                                                                                                                                |
+| Operações com `Math`            | `useCaptura` (`Math.random`, `Math.round`), `lib/estatisticas.js` (percentuais, médias, `Math.max`), `lib/id.js`                                                               |
+| Consumo de API                  | `src/services/api.js` (usuários, pastas, notas e amostras)                                                                                                                     |
+| Tailwind CSS                    | Todo o projeto; tokens em `src/index.css`                                                                                                                                      |
+| Responsividade                  | Desktop, tablet e mobile em todas as telas (menu recolhido, navegação inferior no celular)                                                                                     |
+| CSS Grid                        | Seções da landing e da área do aluno                                                                                                                                           |
+| HTML semântico e acessibilidade | Landmarks, `aria-*`, `<dialog>` nativo, foco visível, `prefers-reduced-motion`                                                                                                 |
+| Deploy Git + Vercel             | `vercel.json` (inclui rewrite para o React Router)                                                                                                                             |
 
 ### Funcionalidades da área do aluno (alinhadas ao Challenge)
 
@@ -104,13 +104,13 @@ Também é possível **criar uma conta** em `/cadastro` (a conta fica salva no n
 
 ## O que mudou da Sprint 3 para a Sprint 4
 
-| Item | Sprint 3 | Sprint 4 |
-| --- | --- | --- |
-| Tecnologia | HTML + CSS | React + Tailwind CSS + React Router |
-| Páginas | Uma landing page | Landing, login, cadastro e 10 telas privadas |
-| Dados | Textos fixos | API mockada com `fetch` + `localStorage` |
-| Interação | Formulário simples | Demo de captura, busca, comparação, pastas, lixeira, histórico |
-| Deploy | Arquivos estáticos | Git + Vercel |
+| Item       | Sprint 3           | Sprint 4                                                       |
+| ---------- | ------------------ | -------------------------------------------------------------- |
+| Tecnologia | HTML + CSS         | React + Tailwind CSS + React Router                            |
+| Páginas    | Uma landing page   | Landing, login, cadastro e 10 telas privadas                   |
+| Dados      | Textos fixos       | API mockada com `fetch` + `localStorage`                       |
+| Interação  | Formulário simples | Demo de captura, busca, comparação, pastas, lixeira, histórico |
+| Deploy     | Arquivos estáticos | Git + Vercel                                                   |
 
 ## Estrutura de pastas
 
@@ -149,8 +149,8 @@ A equipe usou o **Claude (Anthropic)** como assistente de programação para ree
 
 ## Integrantes
 
-| Nome | RM |
-| --- | --- |
-| Michel Tatsuya Hanada | 571987 |
-| Felipe Ilek Felice | 571322 |
+| Nome                                   | RM     |
+| -------------------------------------- | ------ |
+| Michel Tatsuya Hanada                  | 571987 |
+| Felipe Ilek Felice                     | 571322 |
 | Marcos Vinícius Serafim Tudisco Mendes | 569366 |
