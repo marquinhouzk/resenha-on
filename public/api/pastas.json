@@ -1,0 +1,7 @@
+[
+  { "id": "p_web", "nome": "Web Development", "cor": "#2046E5", "ordem": 0 },
+  { "id": "p_front", "nome": "Front-End Design", "cor": "#E8185F", "ordem": 1 },
+  { "id": "p_py", "nome": "Computational Thinking", "cor": "#14805A", "ordem": 2 },
+  { "id": "p_soft", "nome": "Software e Total Experience", "cor": "#7C4DFF", "ordem": 3 },
+  { "id": "p_story", "nome": "Storytelling", "cor": "#E58A00", "ordem": 4 }
+]

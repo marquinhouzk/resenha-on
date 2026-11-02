@@ -1,0 +1,62 @@
+[
+  {
+    "id": "n_hooks", "titulo": "Hooks do React: useState e useEffect", "pastaId": "p_web",
+    "diasAtras": 0, "hora": 8, "confianca": 96, "origem": "camera", "favorita": true, "privada": true,
+    "texto": "useState guarda um valor e renderiza o componente de novo quando ele muda.\nuseEffect roda efeitos colaterais depois da renderização.\nArray de dependências vazio: executa só na montagem.\nLimpeza do efeito: retorne uma função dentro do useEffect.\nRegra dos hooks: só no topo do componente, nunca dentro de if ou for."
+  },
+  {
+    "id": "n_rotas", "titulo": "Rotas públicas e privadas", "pastaId": "p_web",
+    "diasAtras": 1, "hora": 19, "confianca": 94, "origem": "camera", "favorita": false, "privada": true,
+    "texto": "Rota pública: qualquer pessoa acessa (home, login, cadastro).\nRota privada: só com sessão ativa; sem login, redireciona para /login.\nNo React Router, a rota privada é um componente que renderiza <Outlet /> ou <Navigate />.\nGuardar a página de origem no state para voltar depois do login.\nO servidor também precisa validar: proteger só no front não basta."
+  },
+  {
+    "id": "n_entrega", "titulo": "Checklist da entrega da Sprint 4", "pastaId": "p_web",
+    "diasAtras": 2, "hora": 21, "confianca": null, "origem": "manual", "favorita": true, "privada": true, "lembreEmDias": 2,
+    "texto": "README com tecnologias, instalação, execução, usuários de teste e link da Vercel.\nParágrafo sobre o uso de IA no projeto.\nINTEGRANTES.TXT dentro do ZIP (sem ele, perde 10 pontos).\nLink do repositório Git e link do deploy na entrega.\nSó um aluno do grupo envia o ZIP."
+  },
+  {
+    "id": "n_grid", "titulo": "CSS Grid: container e itens", "pastaId": "p_front",
+    "diasAtras": 2, "hora": 10, "confianca": 97, "origem": "camera", "favorita": false, "privada": true,
+    "texto": "display: grid transforma o elemento em grid container.\ngrid-template-columns define as colunas; repeat(3, 1fr) cria três iguais.\nOs filhos diretos viram grid items.\ngrid-column: span 2 faz um item ocupar duas colunas.\ngap controla o espaço entre linhas e colunas."
+  },
+  {
+    "id": "n_breakpoints", "titulo": "Breakpoints do Tailwind", "pastaId": "p_front",
+    "diasAtras": 3, "hora": 14, "confianca": 92, "origem": "camera", "favorita": true, "privada": false,
+    "texto": "Mobile first: a classe sem prefixo vale para todas as telas.\nsm: 640px, md: 768px, lg: 1024px, xl: 1280px.\nExemplo: grid-cols-1 md:grid-cols-2 lg:grid-cols-4.\nTestar sempre em três larguras: celular, tablet e desktop."
+  },
+  {
+    "id": "n_funcoes", "titulo": "Funções e parâmetros em Python", "pastaId": "p_py",
+    "diasAtras": 4, "hora": 9, "confianca": 95, "origem": "camera", "favorita": false, "privada": true,
+    "texto": "def calcular_media(notas): recebe uma lista e devolve um número.\nParâmetros entram na função; return manda o resultado de volta.\nFunção sem return devolve None.\nUma função, uma responsabilidade: facilita testar e reutilizar."
+  },
+  {
+    "id": "n_tryexcept", "titulo": "try/except e validação de entrada", "pastaId": "p_py",
+    "diasAtras": 6, "hora": 16, "confianca": null, "origem": "manual", "favorita": false, "privada": true,
+    "texto": "try: tenta executar o bloco.\nexcept ValueError: trata o erro quando o int() falha.\nValide a entrada antes de usar: while True até receber algo válido.\nSalvar em JSON com json.dump e ler com json.load."
+  },
+  {
+    "id": "n_nielsen", "titulo": "Heurísticas de Nielsen (resumo)", "pastaId": "p_soft",
+    "diasAtras": 5, "hora": 11, "confianca": 93, "origem": "camera", "favorita": false, "privada": false, "lembreEmDias": 5,
+    "texto": "1. Visibilidade do estado do sistema.\n2. Correspondência entre o sistema e o mundo real.\n3. Controle e liberdade do usuário.\n4. Consistência e padrões.\n5. Prevenção de erros.\n6. Reconhecimento em vez de memorização.\n7. Flexibilidade e eficiência de uso.\n8. Design estético e minimalista.\n9. Ajudar o usuário a reconhecer, diagnosticar e corrigir erros.\n10. Ajuda e documentação."
+  },
+  {
+    "id": "n_astah", "titulo": "Diagrama de caso de uso (Astah)", "pastaId": "p_soft",
+    "diasAtras": 14, "hora": 15, "confianca": 91, "origem": "camera", "favorita": false, "privada": true,
+    "texto": "Ator: quem interage com o sistema (Estudante).\nCaso de uso: uma operação com valor para o ator (Capturar quadro).\nInclude: o caso sempre usa outro. Extend: uso opcional.\nA fronteira do sistema mostra o que está dentro e fora do escopo."
+  },
+  {
+    "id": "n_canvas", "titulo": "Story Canvas: os 10 tópicos", "pastaId": "p_story",
+    "diasAtras": 8, "hora": 13, "confianca": 96, "origem": "camera", "favorita": false, "privada": false,
+    "texto": "Propósito, resultados esperados e indicadores de sucesso.\nAudiência, personagens e cenários.\nMensagens-chave e chamada para ação.\nEstilo e tom de voz.\nCampanha (canais) e história com início, meio e fim."
+  },
+  {
+    "id": "n_pitch", "titulo": "Ideias para o pitch da banca", "pastaId": null,
+    "diasAtras": 10, "hora": 22, "confianca": null, "origem": "manual", "favorita": true, "privada": true,
+    "texto": "Cinco minutos no máximo; dois de preparo para o login.\nAbrir com a dor: quem nunca perdeu o que estava no quadro?\nMostrar a captura ao vivo em vez de slide.\nFechar com o diferencial: tudo organizado por disciplina sem esforço."
+  },
+  {
+    "id": "n_wireframe", "titulo": "Rascunho antigo do wireframe", "pastaId": "p_front",
+    "diasAtras": 20, "hora": 18, "confianca": null, "origem": "manual", "favorita": false, "privada": true, "excluidaDiasAtras": 4,
+    "texto": "Primeira versão com cinco botões na tela principal.\nDescartada: confusa para quem só quer fotografar o quadro."
+  }
+]

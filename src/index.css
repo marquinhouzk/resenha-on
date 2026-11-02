@@ -1,0 +1,74 @@
+@import "tailwindcss";
+
+@theme {
+  --color-papel: #f3f5fb;
+  --color-tinta: #14213a;
+  --color-quadro: #10243f;
+  --color-quadro-claro: #1b3558;
+  --color-jovi: #2046e5;
+  --color-jovi-escuro: #1431a8;
+  --color-ceu: #e4eafb;
+  --color-marca: #ffe14a;
+  --color-rosa: #e8185f;
+  --color-verde: #14805a;
+  --color-grafite: #566078;
+  --color-linha: #d9deec;
+
+  --font-sans: "Figtree", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Bricolage Grotesque", "Figtree", ui-sans-serif, system-ui, sans-serif;
+
+  --animate-varredura: varredura 1.4s ease-in-out infinite;
+  --animate-pulsar: pulsar 2.4s ease-in-out infinite;
+
+  @keyframes varredura {
+    0% { top: 4%; opacity: 0.2; }
+    50% { opacity: 1; }
+    100% { top: 94%; opacity: 0.2; }
+  }
+  @keyframes pulsar {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.08); }
+  }
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+  }
+  body {
+    background: var(--color-papel);
+    color: var(--color-tinta);
+    font-family: var(--font-sans);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+    letter-spacing: -0.02em;
+    line-height: 1.08;
+    text-wrap: balance;
+  }
+  :focus-visible {
+    outline: 3px solid var(--color-jovi);
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+  mark {
+    background: var(--color-marca);
+    color: inherit;
+    padding: 0 0.12em;
+    border-radius: 0.2em;
+  }
+  dialog::backdrop {
+    background: rgb(16 36 63 / 0.55);
+  }
+  @media (prefers-reduced-motion: reduce) {
+    html { scroll-behavior: auto; }
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+}

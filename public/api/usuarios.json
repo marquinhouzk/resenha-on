@@ -1,0 +1,18 @@
+[
+  {
+    "id": "u_demo",
+    "nome": "Aluno Demo",
+    "email": "demo@resenhaon.app",
+    "senhaHash": "5d027bc24356c4b90fc4c2b3398bda5b1b12241a6d7de6b8eb2db000f1935f3e",
+    "curso": "Engenharia de Software",
+    "semente": true
+  },
+  {
+    "id": "u_prof",
+    "nome": "Professor FIAP",
+    "email": "professor@fiap.com.br",
+    "senhaHash": "9ccbf6649d376be76e60ffebf4c13d4a7e5e89a31c77afd011c728ed385f8ee6",
+    "curso": "Avaliação Challenge 2026",
+    "semente": true
+  }
+]

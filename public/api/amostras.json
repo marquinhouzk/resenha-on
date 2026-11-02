@@ -1,0 +1,50 @@
+[
+  {
+    "id": "a_quadro",
+    "origem": "Quadro branco, sala 304",
+    "pastaId": "p_web",
+    "titulo": "Context API e estado global",
+    "texto": "Context API evita passar props por muitos níveis.\nProvider envolve a árvore; useContext lê o valor.\nBom para sessão do usuário e tema.\nPara estado que muda muito, avalie reducer ou biblioteca.",
+    "disciplina": "Web Development"
+  },
+  {
+    "id": "a_slide",
+    "origem": "Slide projetado, auditório",
+    "pastaId": "p_soft",
+    "titulo": "Backlog priorizado",
+    "texto": "Backlog: lista ordenada de tudo que o produto precisa.\nPriorize por valor para o usuário e para o negócio.\nCada item tem descrição clara e critério de aceite.\nRevise o backlog a cada sprint.",
+    "disciplina": "Software e Total Experience"
+  },
+  {
+    "id": "a_apostila",
+    "origem": "Apostila, página 42",
+    "pastaId": "p_py",
+    "titulo": "Listas e dicionários",
+    "texto": "Lista: coleção ordenada, acesso por índice.\nDicionário: pares chave e valor, acesso pela chave.\nUma lista de dicionários representa uma tabela.\nUse .get(chave, padrão) para evitar KeyError.",
+    "disciplina": "Computational Thinking"
+  },
+  {
+    "id": "a_caderno",
+    "origem": "Caderno, anotação à mão",
+    "pastaId": "p_story",
+    "titulo": "Jornada da persona",
+    "texto": "Persona: estudante full-time, entre aula, trabalho e vida social.\nMomento de dor: o professor apaga o quadro.\nMomento de virada: um toque e o texto já está salvo.\nFinal: a nota certa aparece na hora da prova.",
+    "disciplina": "Storytelling"
+  },
+  {
+    "id": "a_lab",
+    "origem": "Quadro, laboratório 12",
+    "pastaId": "p_front",
+    "titulo": "Semântica do HTML",
+    "texto": "header, nav, main, section, article, aside e footer.\nUm h1 por página; os demais títulos seguem a hierarquia.\nUse button para ação e a para navegação.\nlabel sempre ligado ao input pelo atributo for.",
+    "disciplina": "Front-End Design"
+  },
+  {
+    "id": "a_remota",
+    "origem": "Slide, aula remota",
+    "pastaId": "p_web",
+    "titulo": "Deploy com Git e Vercel",
+    "texto": "git init, git add ., git commit -m \"mensagem\".\nCriar o repositório no GitHub e fazer git push.\nNa Vercel: Add New Project e importar o repositório.\nPara SPA com rotas, configurar rewrite para /index.html.",
+    "disciplina": "Web Development"
+  }
+]
