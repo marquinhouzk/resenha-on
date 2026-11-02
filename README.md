@@ -145,7 +145,9 @@ Na Vercel: **Add New > Project**, importe o repositório e confirme (preset Vite
 
 ## Uso de IA no projeto
 
-A equipe usou o **Claude (Anthropic)** como assistente de programação para reescrever o projeto a partir do enunciado: estruturar a arquitetura (rotas, contextos, hooks), gerar a primeira versão dos componentes, da lógica em `src/lib`, dos testes automatizados e deste README. O conteúdo da solução (Resenha ON, público-alvo, funcionalidades) vem da proposta da Sprint 3. A equipe revisou, executou e testou o código, e ajustou textos e dados. Ferramentas de IA não são usadas em tempo de execução: toda a "leitura de texto" da captura é uma simulação com amostras vindas da API mockada.
+## Uso de IA no projeto
+
+Utilizamos o **Claude (Anthropic)** como ferramenta de apoio ao desenvolvimento desta Sprint. A solução (Resenha ON, o Modo Estudo da câmera JOVI) e o público-alvo foram definidos pelo grupo na Sprint 3. Para a Sprint 4, partimos do enunciado e dos requisitos das duas disciplinas e pedimos à IA a estrutura do projeto em React e Tailwind: componentes, rotas públicas e privadas, hooks customizados, a API mockada, os testes automatizados e a primeira versão deste README. O grupo instalou as dependências, executou o projeto, testou o site, publicou o código no GitHub, fez o deploy na Vercel e conferiu os dados de entrega (integrantes e links). A IA é uma ferramenta de desenvolvimento e não roda dentro do produto: a leitura de texto da captura é uma simulação com amostras vindas da API mockada.
 
 ## Integrantes
 
