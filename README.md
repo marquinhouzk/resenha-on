@@ -6,7 +6,7 @@ A **Resenha ON** é um modo de câmera pensado para estudantes full-time: o alun
 
 ## Links
 
-- Deploy na Vercel: **https://resenha-on.vercel.app/app**
+- Deploy na Vercel: **https://resenha-on.vercel.app**
 - Repositório Git: **https://github.com/marquinhouzk/resenha-on**
 
 ## Tecnologias utilizadas
